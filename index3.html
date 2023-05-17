@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS for the table */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    /* CSS for the form inputs */
+    input[type=text], textarea {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h2>Contact Us</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <td><input type="text" placeholder="Your name"></td>
+    </tr>
+    <tr>
+      <th>Email</th>
+      <td><input type="text" placeholder="Your email"></td>
+    </tr>
+    <tr>
+      <th>Message</th>
+      <td><textarea rows="5" placeholder="Your message"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="submit" value="Submit"></td>
+    </tr>
+  </table>
+</body>
+</html>
